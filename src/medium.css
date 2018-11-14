@@ -1,0 +1,125 @@
+@media only screen and (max-width: 800px) {
+  button {
+    font-size: 16px;
+  }
+  .projectsButton {
+    display: grid;
+    grid-row: 7 / 8;
+    grid-column: 2 / 5;
+    width: 67%;
+  }
+
+  .headerFS {
+    grid-column: 2 / 10;
+  }
+
+  .aboutButton {
+    display: grid;
+    grid-row: 7 / 8;
+    grid-column: 5 / 7;
+    width: 100%;
+  }
+
+  .contactButton {
+    display: grid;
+    grid-row: 7 / 8;
+    grid-column: 7 / 10;
+    width: 67%;
+  }
+
+  .profPic {
+    grid-row: 3 / 4;
+    grid-column: 4 / 8;
+    border-radius: 100%;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .projectOne, .projectTwo {
+    grid-row: 2 / 10;
+    grid-column: 2 / 10;
+  }
+
+  .pBox {
+    margin-left: 20px;
+  }
+
+  .projectOne h3, .projectTwo h3 {
+    color: white;
+    font-size: 18px;
+  }
+
+  .techPic {
+    max-width: 60px;
+    max-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .projectOne h3, .projectTwo h3 {
+    color: white;
+    font-size: 17px;
+  }
+
+  .techPic {
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectOne, .projectTwo {
+    grid-row: 2 / 10;
+    grid-column: 1 / 11;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .projectOne h2, .projectTwo h2 {
+    text-align: center;
+    color: white;
+    grid-row: 1 / 2;
+    grid-column: 1 / 7;
+    font-size: 30px;
+  }
+
+  .pBox {
+    grid-column: 7 / 11;
+    grid-row: 1 / 5;
+  }
+
+  .h3Box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / 11;
+    grid-row: 8 / 9;
+  }
+
+  .projectOne h3, .projectTwo h3 {
+    color: white;
+    font-size: 15px;
+  }
+
+  .projectOne p, .projectTwo p {
+      font-size: 13px;
+  }
+
+  .blackjackPic {
+    max-width: 100%;
+    grid-column: 1 / 7;
+  }
+
+  .techStacks {
+    grid-row: 9 / 11;
+    grid-column: 1 / 11;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .techPic {
+    max-width: 45px;
+    max-height: 45px;
+  }
+}
