@@ -97,6 +97,140 @@ class App extends Component {
         </div>
         <div className="thirdGrid">
           <div className="projectTwo">
+            <h2>Learning Spanish</h2>
+            <img
+              src={require("./images/dashboard.png")}
+              alt="Screenshot of App"
+              className="learnSpanishPic blackjackPic"
+            />
+            <div className="pBox">
+              <p>
+                This application is a learning app meant to help people learn Spanish. It's quite simple, and uses a spaced repetition algorithm to show users questions they struggle with more often.
+              </p>
+              <div className="headBox">
+                <h3>Live Version</h3>
+                <h3>GitHub File</h3>
+              </div>
+              <div className="logoBox">
+                <a
+                  href="https://learn-spanish-app.herokuapp.com"
+                  target="_blank"
+                >
+                  <img
+                    src={require("./images/heroku.png")}
+                    alt="Heroku logo"
+                    className="techPic"
+                  />
+                </a>
+                <a
+                  href="https://github.com/thinkful-ei24/aaron-janet-spaced-repetition-client"
+                  target="_blank"
+                >
+                  <img
+                    src={require("./images/GitHub.png")}
+                    alt="GitHub logo"
+                    className="techPic"
+                  />
+                </a>
+              </div>
+              <div className="headBox">
+                <h3>Tech Stacks</h3>
+              </div>
+              <div className="techStacks">
+                <a href="https://reactjs.org/" target="_blank">
+                  <img
+                    src={require("./images/react.png")}
+                    alt="React logo"
+                    className="techPic"
+                  />
+                </a>
+                <a href="https://nodejs.org/en/" target="_blank">
+                  <img
+                    src={require("./images/node.jpg")}
+                    alt="Node logo"
+                    className="techPic"
+                  />
+                </a>
+                <a href="https://www.mongodb.com/" target="_blank">
+                  <img
+                    src={require("./images/mongo.png")}
+                    alt="MongoDB logo"
+                    className="techPic"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="fourthGrid">
+          <div className="projectThree">
+            <h2>DSM Dynasty</h2>
+            <img
+              src={require("./images/dsm.png")}
+              alt="Screenshot of App"
+              className="dsmPic blackjackPic"
+            />
+            <div className="pBox">
+              <p>
+                This application is for my personal fantasy football league. It's still in development, but it's the way I plan on keeping track of long term stats for our league.
+              </p>
+              <div className="headBox">
+                <h3>Live Version</h3>
+                <h3>GitHub File</h3>
+              </div>
+              <div className="logoBox">
+                <a
+                  href="https://dsm-dynasty.herokuapp.com"
+                  target="_blank"
+                >
+                  <img
+                    src={require("./images/heroku.png")}
+                    alt="Heroku logo"
+                    className="techPic"
+                  />
+                </a>
+                <a
+                  href="https://github.com/WhiteheadAaron/DSM-Dynasty-Client"
+                  target="_blank"
+                >
+                  <img
+                    src={require("./images/GitHub.png")}
+                    alt="GitHub logo"
+                    className="techPic"
+                  />
+                </a>
+              </div>
+              <div className="headBox">
+                <h3>Tech Stacks</h3>
+              </div>
+              <div className="techStacks">
+                <a href="https://reactjs.org/" target="_blank">
+                  <img
+                    src={require("./images/react.png")}
+                    alt="React logo"
+                    className="techPic"
+                  />
+                </a>
+                <a href="https://nodejs.org/en/" target="_blank">
+                  <img
+                    src={require("./images/node.jpg")}
+                    alt="Node logo"
+                    className="techPic"
+                  />
+                </a>
+                <a href="https://www.mongodb.com/" target="_blank">
+                  <img
+                    src={require("./images/mongo.png")}
+                    alt="MongoDB logo"
+                    className="techPic"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="fifthGrid">
+          <div className="projectFour">
             <h2>Whitehead Tax Service</h2>
             <img
               src={require("./images/wts.jpg")}
@@ -164,6 +298,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        
       </React.Fragment>
     );
   }

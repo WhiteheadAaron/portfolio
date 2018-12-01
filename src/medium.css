@@ -36,7 +36,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .projectOne, .projectTwo {
+  .projectOne, .projectTwo, .projectThree, .projectFour {
     grid-row: 2 / 10;
     grid-column: 2 / 10;
   }
@@ -45,7 +45,7 @@
     margin-left: 20px;
   }
 
-  .projectOne h3, .projectTwo h3 {
+  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3 {
     color: white;
     font-size: 18px;
   }
@@ -57,7 +57,7 @@
 }
 
 @media only screen and (max-width: 850px) {
-  .projectOne h3, .projectTwo h3 {
+  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3 {
     color: white;
     font-size: 17px;
   }
@@ -69,19 +69,23 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .projectOne, .projectTwo {
+  .projectOne, .projectTwo, .projectThree, .projectFour {
     grid-row: 2 / 10;
     grid-column: 1 / 11;
     margin-left: 20px;
     margin-right: 20px;
   }
 
-  .projectOne h2, .projectTwo h2 {
+  .projectOne h2, .projectTwo h2, .projectThree h2, .projectFour h2 {
     text-align: center;
     color: white;
     grid-row: 1 / 2;
     grid-column: 1 / 7;
     font-size: 30px;
+  }
+
+  .projectFour h2 {
+    font-size: 24px;
   }
 
   .pBox {
@@ -97,18 +101,22 @@
     grid-row: 8 / 9;
   }
 
-  .projectOne h3, .projectTwo h3 {
+  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3 {
     color: white;
     font-size: 15px;
   }
 
-  .projectOne p, .projectTwo p {
+  .projectOne p, .projectTwo p, .projectThree p, .projectFour p {
       font-size: 13px;
   }
 
-  .blackjackPic {
+  .blackjackPic, .learnSpanishPic {
     max-width: 100%;
     grid-column: 1 / 7;
+  }
+
+  .learnSpanishPic {
+    margin: 0;
   }
 
   .techStacks {
