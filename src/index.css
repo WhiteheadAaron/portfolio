@@ -10,6 +10,7 @@ body {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(236, 245, 248);
 }
 
 code {
@@ -17,12 +18,88 @@ code {
     monospace;
 }
 
+.nav {
+  position: fixed;
+  border-bottom: solid black 1px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  height: 8vh;
+  background-color: rgb(236, 245, 248);
+}
+
+.nav h1 {
+  grid-column: 2 / 6;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.navItems {
+  grid-column: 6 / 9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navItems button {
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 30px;
+  background: none;
+  border: none;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navItems a:hover {
+  cursor: pointer;
+}
+
+.navHelper {
+  height: 10px;
+  grid-row: 10 / 11;
+}
+
 .firstGrid {
   display: grid;
-  height: 100vh;
+  height: 90vh;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
   background-color: rgb(236, 245, 248);
+}
+
+.aboutMeGrid {
+  background-color: rgb(236, 245, 248);
+  display: grid;
+  max-height: 100vh;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.picBox {
+  grid-column: 1 / 5;
+  grid-row: 1 / 4;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.aboutMe {
+  grid-column: 6 / 10;
+  grid-row: 2 / 4;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+
+.aboutPic {
+  width: 100%;
 }
 
 .headerBox {
@@ -93,6 +170,14 @@ code {
   background-color: rgb(143, 131, 131);
 }
 
+.sixthGrid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  background-color: rgb(110, 110, 110);
+}
+
 /* button {
   background-color: lightblue;
   font-size: 25px;
@@ -127,16 +212,16 @@ code {
   margin-top: 30px;
 } */
 
-.projectOne, .projectTwo, .projectThree, .projectFour {
+.projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
   grid-row: 2 / 10;
-  grid-column: 2 / 10;
+  grid-column: 3 / 9;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(9, 15%);
   margin-top: 20px;
 }
 
-.projectOne h2, .projectTwo h2, .projectThree h2, .projectFour h2 {
+.projectOne h2, .projectTwo h2, .projectThree h2, .projectFour h2, .projectFive h2 {
   text-align: center;
   color: white;
   grid-row: 1 / 2;
@@ -161,7 +246,7 @@ code {
   justify-content: space-evenly;
 }
 
-.projectOne p, .projectTwo p, .projectThree p, .projectFour p {
+.projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
   color: white;
 }
 
@@ -173,7 +258,7 @@ code {
   grid-row: 8 / 9;
 }
 
-.projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3 {
+.projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3, .projectFive h3 {
   color: white;
   font-size: 20px;
 }
@@ -182,6 +267,7 @@ code {
   max-width: 100%;
   grid-column: 1 / 7;
 }
+
 
 .learnSpanishPic {
   grid-column: 1 / 7;
@@ -201,8 +287,32 @@ code {
   max-height: 65px;
 }
 
+.contactPics {
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.linked, .email, .git {
+  max-width: 100%;
+}
+
+.linkedIn {
+  height: 12vh;
+  margin-left: 10px;
+}
+
+.emailPic, .gitHubPic {
+  height: 13vh;
+}
+
 @media only screen and (max-width: 1500px) {
-  .projectOne p, .projectTwo p, .projectThree p, .projectFour p {
+  .projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
     font-size: 16px;
   }
 
@@ -214,11 +324,11 @@ code {
 }
 
 @media only screen and (max-width: 1300px) {
-  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3 {
+  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3, .projectFive h3 {
     font-size: 18px;
   }
 
-  .projectOne, .projectTwo, .projectThree, .projectFour {
+  .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
     margin-top: 0px;
   }
 
@@ -231,17 +341,17 @@ code {
     max-height: 50px;
   }
 
-  .projectOne p, .projectTwo p, .projectThree p, .projectFour p {
+  .projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
     font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 1100px) {
-  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3 {
+  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3, .projectFive h3 {
     font-size: 16px;
   }
 
-  .projectOne, .projectTwo, .projectThree, .projectFour {
+  .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
     margin-top: 20px;
   }
 
@@ -251,14 +361,14 @@ code {
     max-height: 45px;
   }
 
-  .projectOne p, .projectTwo p, .projectThree p, .projectFour p {
+  .projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
     font-size: 13px;
   }
 }
 
 @media only screen and (max-width: 800px) {
 
-  .projectOne, .projectTwo, .projectThree, .projectFour {
+  .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
     margin-top: 40px;
   }
 

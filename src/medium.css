@@ -36,7 +36,11 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .projectOne, .projectTwo, .projectThree, .projectFour {
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour,
+  .projectFive {
     grid-row: 2 / 10;
     grid-column: 2 / 10;
   }
@@ -45,7 +49,11 @@
     margin-left: 20px;
   }
 
-  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3 {
+  .projectOne h3,
+  .projectTwo h3,
+  .projectThree h3,
+  .projectFour h3,
+  .projectFive h3 {
     color: white;
     font-size: 18px;
   }
@@ -57,7 +65,25 @@
 }
 
 @media only screen and (max-width: 850px) {
-  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3 {
+
+  .picBox {
+    grid-column: 4 / 8;
+    grid-row: 1 / 4;
+    margin-top: 10px;
+  }
+  
+  .aboutMe {
+    grid-column: 2 / 10;
+    grid-row: 4 / 6;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  
+  .projectOne h3,
+  .projectTwo h3,
+  .projectThree h3,
+  .projectFour h3, 
+  .projectFive h3 {
     color: white;
     font-size: 17px;
   }
@@ -69,14 +95,52 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .projectOne, .projectTwo, .projectThree, .projectFour {
+  .nav {
+    position: fixed;
+    border-bottom: solid black 1px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    height: 8vh;
+    background-color: rgb(236, 245, 248);
+  }
+
+  .nav h1 {
+    grid-column: 1 / 6;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .navItems {
+    grid-column: 6 / 9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navItems button {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+  }
+
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour, 
+  .projectFive {
     grid-row: 2 / 10;
     grid-column: 1 / 11;
     margin-left: 20px;
     margin-right: 20px;
   }
 
-  .projectOne h2, .projectTwo h2, .projectThree h2, .projectFour h2 {
+  .projectOne h2,
+  .projectTwo h2,
+  .projectThree h2,
+  .projectFour h2, 
+  .projectFive h2 {
     text-align: center;
     color: white;
     grid-row: 1 / 2;
@@ -101,16 +165,25 @@
     grid-row: 8 / 9;
   }
 
-  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3 {
+  .projectOne h3,
+  .projectTwo h3,
+  .projectThree h3,
+  .projectFour h3, 
+  .projectFive h3 {
     color: white;
     font-size: 15px;
   }
 
-  .projectOne p, .projectTwo p, .projectThree p, .projectFour p {
-      font-size: 13px;
+  .projectOne p,
+  .projectTwo p,
+  .projectThree p,
+  .projectFour p, 
+  .projectFive p {
+    font-size: 13px;
   }
 
-  .blackjackPic, .learnSpanishPic {
+  .blackjackPic,
+  .learnSpanishPic {
     max-width: 100%;
     grid-column: 1 / 7;
   }
