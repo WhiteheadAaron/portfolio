@@ -20,7 +20,6 @@ code {
 
 .nav {
   position: fixed;
-  border-bottom: solid black 1px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -29,13 +28,13 @@ code {
 }
 
 .nav h1 {
-  grid-column: 2 / 6;
+  grid-column: 3 / 5;
   font-size: 24px;
   margin-left: 10px;
 }
 
 .navItems {
-  grid-column: 6 / 9;
+  grid-column: 5 / 8;
   width: 100%;
   display: flex;
   justify-content: center;
