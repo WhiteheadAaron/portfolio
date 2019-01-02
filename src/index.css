@@ -141,7 +141,7 @@ a {
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(11, 1fr);
   background-color: rgb(110, 110, 110);
 }
 
@@ -149,7 +149,7 @@ a {
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(11, 1fr);
   background-color: rgb(143, 131, 131);
 }
 
@@ -157,7 +157,7 @@ a {
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(11, 1fr);
   background-color: rgb(110, 110, 110);
 }
 
@@ -165,7 +165,7 @@ a {
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(11, 1fr);
   background-color: rgb(143, 131, 131);
 }
 
@@ -173,7 +173,7 @@ a {
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(11, 1fr);
   background-color: rgb(110, 110, 110);
 }
 
