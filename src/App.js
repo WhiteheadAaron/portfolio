@@ -44,7 +44,7 @@ class App extends Component {
             />
           </div>
           <p className="aboutMe">
-            Outside of developing, I love to watch and play all sports, especially soccer. I love traveling to new National Parks, and being in nature in general. This picture is of me and my mom at Rocky Mountain National Park in Colorado.
+            Outside of developing, I love to watch and play all sports, especially soccer. I love traveling to new National Parks, and being in nature in general. This picture is of my mom and I at Rocky Mountain National Park in Colorado.
           </p>
         </div>
         <div className="navHelper" id="projects" />
