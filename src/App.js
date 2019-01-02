@@ -9,18 +9,18 @@ class App extends Component {
       <React.Fragment>
         <div className="nav">
           <h1>
-            <a href="#nav">Aaron Whitehead</a>
+            <a href="#home">Aaron Whitehead</a>
           </h1>
           <div className="navItems">
             <button>
-              <a href="#navHelper">Projects</a>
+              <a href="#projects">Projects</a>
             </button>
             <button>
               <a href="#contact">Contact</a>
             </button>
           </div>
         </div>
-        <div className="firstGrid" id="nav">
+        <div className="firstGrid" id="home">
           <img
             src={require("./images/me.jpg")}
             alt="Aaron"
@@ -47,8 +47,8 @@ class App extends Component {
             Outside of developing, I love to watch and play all sports, especially soccer. I love traveling to new National Parks, and being in nature in general. This picture is of me and my mom at Rocky Mountain National Park in Colorado.
           </p>
         </div>
-        <div className="navHelper" id="navHelper" />
-        <div className="secondGrid" id="projects">
+        <div className="navHelper" id="projects" />
+        <div className="secondGrid">
           <div className="projectOne">
             <h2>BlackJack</h2>
             <img
