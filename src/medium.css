@@ -108,6 +108,8 @@
     background-color: rgb(236, 245, 248);
   }
 
+
+
   .nav h1 {
     grid-column: 1 / 6;
     font-size: 24px;
@@ -137,6 +139,11 @@
     grid-column: 1 / 11;
     margin-left: 20px;
     margin-right: 20px;
+    grid-template-rows: repeat(10, 10vh);
+  }
+
+  .secondGrid, .thirdGrid, .fourthGrid, .fifthGrid, .sixthGrid {
+    height: 90vh;
   }
 
   .projectOne h2,
@@ -203,5 +210,9 @@
   .techPic {
     max-width: 45px;
     max-height: 45px;
+  }
+
+  .blackjackPic {
+    margin-bottom: 100px;
   }
 }

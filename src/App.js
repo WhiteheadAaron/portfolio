@@ -35,18 +35,10 @@ class App extends Component {
           <button className="aboutButton">About Me</button>
           <button className="contactButton">Contact Me</button> */}
         </div>
-        <div className="aboutMeGrid">
-          <div className="picBox">
-            <img
-              src={require("./images/about.jpg")}
-              alt="Aaron"
-              className="aboutPic"
-            />
-          </div>
-          <p className="aboutMe">
-            Outside of developing, I love to watch and play all sports, especially soccer. I love traveling to new National Parks, and being in nature in general. This picture is of my mom and I at Rocky Mountain National Park in Colorado.
-          </p>
-        </div>
+        {/* <div className="aboutMeGrid">
+        
+       
+        </div> */}
         <div className="navHelper" id="projects" />
         <div className="secondGrid">
           <div className="projectOne">
@@ -64,33 +56,22 @@ class App extends Component {
                 the hand starts.
               </p>
               <div className="headBox">
-                <h3>Live Version</h3>
-                <h3>GitHub File</h3>
-              </div>
-              <div className="logoBox">
-                <a
+              <a
                   href="https://blackjack-app-client.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/heroku.png")}
-                    alt="Heroku logo"
-                    className="techPic"
-                  />
+                <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/WhiteheadAaron/blackjack-client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/GitHub.png")}
-                    alt="GitHub logo"
-                    className="techPic"
-                  />
+                <h3>GitHub File</h3>
                 </a>
               </div>
+
               <div className="headBox">
                 <h3>Tech Stacks</h3>
               </div>
@@ -148,33 +129,22 @@ class App extends Component {
                 ReadMe!
               </p>
               <div className="headBox">
-                <h3>Live Version</h3>
-                <h3>GitHub File</h3>
-              </div>
-              <div className="logoBox">
-                <a
+              <a
                   href="https://mountain-men-truckd.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/heroku.png")}
-                    alt="Heroku logo"
-                    className="techPic"
-                  />
+                <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/thinkful-ei24/mountain-men-client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/GitHub.png")}
-                    alt="GitHub logo"
-                    className="techPic"
-                  />
+                <h3>GitHub File</h3>
                 </a>
               </div>
+              
               <div className="headBox">
                 <h3>Tech Stacks</h3>
               </div>
@@ -230,33 +200,22 @@ class App extends Component {
                 Spanish. It was made in collaboration with developer Janet Leon.
               </p>
               <div className="headBox">
-                <h3>Live Version</h3>
-                <h3>GitHub File</h3>
-              </div>
-              <div className="logoBox">
-                <a
+              <a
                   href="https://learn-spanish-app.herokuapp.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/heroku.png")}
-                    alt="Heroku logo"
-                    className="techPic"
-                  />
+                <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/thinkful-ei24/aaron-janet-spaced-repetition-client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/GitHub.png")}
-                    alt="GitHub logo"
-                    className="techPic"
-                  />
+                <h3>GitHub File</h3>
                 </a>
               </div>
+             
               <div className="headBox">
                 <h3>Tech Stacks</h3>
               </div>
@@ -313,33 +272,22 @@ class App extends Component {
                 track of long term stats for our league.
               </p>
               <div className="headBox">
-                <h3>Live Version</h3>
-                <h3>GitHub File</h3>
-              </div>
-              <div className="logoBox">
-                <a
+              <a
                   href="https://dsm-dynasty.herokuapp.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/heroku.png")}
-                    alt="Heroku logo"
-                    className="techPic"
-                  />
+                <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/WhiteheadAaron/DSM-Dynasty-Client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/GitHub.png")}
-                    alt="GitHub logo"
-                    className="techPic"
-                  />
+                <h3>GitHub File</h3>
                 </a>
               </div>
+              
               <div className="headBox">
                 <h3>Tech Stacks</h3>
               </div>
@@ -396,33 +344,22 @@ class App extends Component {
                 the results page.
               </p>
               <div className="headBox">
-                <h3>Live Version</h3>
-                <h3>GitHub File</h3>
-              </div>
-              <div className="logoBox">
-                <a
+              <a
                   href="https://whitehead-tax-service.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/heroku.png")}
-                    alt="Heroku logo"
-                    className="techPic"
-                  />
+                <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/WhiteheadAaron/whitehead-tax-service"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={require("./images/GitHub.png")}
-                    alt="GitHub logo"
-                    className="techPic"
-                  />
+                <h3>GitHub File</h3>
                 </a>
               </div>
+             
               <div className="headBox">
                 <h3>Tech Stacks</h3>
               </div>

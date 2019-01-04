@@ -31,7 +31,7 @@
   }
 
   .projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .blackjackPic {
@@ -160,7 +160,7 @@
     grid-column: 3 / 9;
     grid-row: 2 / 6;
     margin-bottom: 15px;
-    margin-top: -15px;
+    margin-top: -25px;
   }
 
   .pBox {
@@ -205,4 +205,14 @@
     margin-top: 60px;
   }
 
+}
+
+@media only screen and (max-width: 350px) {
+  .secondGrid, .thirdGrid, .fourthGrid, .fifthGrid, .sixthGrid {
+    height: 100vh;
+  }
+
+  .profPic {
+    grid-row: 5 / 6;
+  }
 }
