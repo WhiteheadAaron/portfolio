@@ -108,7 +108,8 @@
     margin-left: 10px;
   }
   
-  .navItems button {
+  .navItems h2 {
+    margin-top: 20px;
     display: inline-block;
     font-size: 13px;
     margin-right: 10px;
@@ -212,6 +213,10 @@
 @media only screen and (max-width: 350px) {
   .secondGrid, .thirdGrid, .fourthGrid, .fifthGrid, .sixthGrid {
     height: 100vh;
+  }
+
+  .navItems h2 {
+    margin-top: 13px;
   }
 
   .profPic {

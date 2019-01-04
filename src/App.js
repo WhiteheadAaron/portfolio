@@ -13,12 +13,12 @@ class App extends Component {
               <a href="#home">Aaron Whitehead</a>
             </h1>
             <div className="navItems">
-              <button>
+              <h2>
                 <a href="#projects">Projects</a>
-              </button>
-              <button>
+              </h2>
+              <h2>
                 <a href="#contact">Contact</a>
-              </button>
+              </h2>
             </div>
           </div>
         </div>
