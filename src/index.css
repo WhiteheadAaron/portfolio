@@ -20,21 +20,22 @@ code {
 
 .nav {
   position: fixed;
-  width: 100%;
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(8, 1fr);
   height: 8vh;
-  background-color: rgb(236, 245, 248);
+  background-color: white;
+  border-bottom: black 1px solid;
 }
 
 .nav h1 {
-  grid-column: 3 / 5;
+  grid-column: 2 / 4;
   font-size: 24px;
   margin-left: 10px;
 }
 
 .navItems {
-  grid-column: 5 / 8;
+  grid-column: 6 / 9;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -175,10 +176,16 @@ a {
   background-color: rgb(110, 110, 110);
 }
 
+.secondGrid, .thirdGrid, .fourthGrid, .fifthGrid, .sixthGrid {
+  height: 60vh;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
-  grid-row: 2 / 10;
+  grid-row: 1 / 10;
   grid-column: 3 / 9;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -245,7 +252,8 @@ a {
 }
 
 .blackjackPic {
-  max-width: 100%;
+  max-height: 300px;
+  max-width: 400px;
   grid-column: 1 / 6;
   grid-row: 3 / 11;
 }
@@ -296,7 +304,7 @@ a {
   height: 9vh;
 }
 
-@media only screen and (max-width: 1500px) {
+
   .projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
     font-size: 16px;
   }
@@ -306,7 +314,7 @@ a {
   .pBox {
     margin-top: 70px;
   }
-}
+
 
 @media only screen and (max-width: 1300px) {
   .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3, .projectFive h3 {

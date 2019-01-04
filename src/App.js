@@ -119,7 +119,7 @@ class App extends Component {
             <img
               src={require("./images/truckd.png")}
               alt="Screenshot of App"
-              className="blackjackPic"
+              className="blackjackPic truckPic"
             />
             <div className="pBox">
               <p>
