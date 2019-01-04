@@ -264,7 +264,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="fifthGrid">
+        {/* <div className="fifthGrid">
           <div className="projectThree">
             <h2>DSM Dynasty</h2>
             <img
@@ -407,7 +407,7 @@ class App extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="aboutSection">
           <p>
             When I'm not writing code, I like to keep busy. These are just a few
