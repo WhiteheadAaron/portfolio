@@ -13,6 +13,12 @@ body {
   background-color: white;
 }
 
+.help {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -21,7 +27,9 @@ code {
 .nav {
   position: fixed;
   display: grid;
-  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   grid-template-columns: repeat(8, 1fr);
   height: 8vh;
   background-color: white;
@@ -94,7 +102,6 @@ a {
   font-size: 20px;
   margin-top: 40px;
 }
-
 
 .aboutPic {
   width: 100%;
@@ -176,15 +183,22 @@ a {
   background-color: rgb(110, 110, 110);
 }
 
-.secondGrid, .thirdGrid, .fourthGrid, .fifthGrid, .sixthGrid {
+.secondGrid,
+.thirdGrid,
+.fourthGrid,
+.fifthGrid,
+.sixthGrid {
   height: 60vh;
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-.projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
+.projectOne,
+.projectTwo,
+.projectThree,
+.projectFour,
+.projectFive {
   grid-row: 1 / 10;
   grid-column: 3 / 9;
   display: grid;
@@ -192,7 +206,9 @@ a {
   grid-template-rows: repeat(10, 7vh);
 }
 
-.projectOne h2, .projectTwo h2, .projectFour h2 {
+.projectOne h2,
+.projectTwo h2,
+.projectFour h2 {
   text-align: center;
   color: white;
   grid-row: 1 / 2;
@@ -200,7 +216,8 @@ a {
   font-size: 30px;
 }
 
- .projectThree h2, .projectFive h2 {
+.projectThree h2,
+.projectFive h2 {
   text-align: center;
   color: black;
   grid-row: 1 / 2;
@@ -225,11 +242,14 @@ a {
   justify-content: space-evenly;
 }
 
-.projectOne p, .projectTwo p, .projectFour p {
+.projectOne p,
+.projectTwo p,
+.projectFour p {
   color: white;
 }
 
-.projectThree p, .projectFive p {
+.projectThree p,
+.projectFive p {
   color: black;
 }
 
@@ -241,12 +261,15 @@ a {
   grid-row: 8 / 9;
 }
 
-.projectOne h3, .projectTwo h3, .projectFour h3 {
+.projectOne h3,
+.projectTwo h3,
+.projectFour h3 {
   color: white;
   font-size: 20px;
 }
 
-.projectThree h3, .projectFive h3 {
+.projectThree h3,
+.projectFive h3 {
   color: black;
   font-size: 20px;
 }
@@ -257,7 +280,6 @@ a {
   grid-column: 1 / 6;
   grid-row: 3 / 11;
 }
-
 
 .learnSpanishPic {
   grid-column: 1 / 6;
@@ -291,7 +313,9 @@ a {
   margin-bottom: 70px;
 }
 
-.linked, .email, .git {
+.linked,
+.email,
+.git {
   max-width: 100%;
 }
 
@@ -300,28 +324,37 @@ a {
   margin-left: 10px;
 }
 
-.emailPic, .gitHubPic {
+.emailPic,
+.gitHubPic {
   height: 9vh;
 }
 
+.projectOne p,
+.projectTwo p,
+.projectThree p,
+.projectFour p,
+.projectFive p {
+  font-size: 16px;
+}
 
-  .projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
-    font-size: 16px;
-  }
-
-
-
-  .pBox {
-    margin-top: 70px;
-  }
-
+.pBox {
+  margin-top: 70px;
+}
 
 @media only screen and (max-width: 1300px) {
-  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3, .projectFive h3 {
+  .projectOne h3,
+  .projectTwo h3,
+  .projectThree h3,
+  .projectFour h3,
+  .projectFive h3 {
     font-size: 18px;
   }
 
-  .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour,
+  .projectFive {
     margin-top: 0px;
   }
 
@@ -334,17 +367,29 @@ a {
     max-height: 50px;
   }
 
-  .projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
+  .projectOne p,
+  .projectTwo p,
+  .projectThree p,
+  .projectFour p,
+  .projectFive p {
     font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 1100px) {
-  .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3, .projectFive h3 {
+  .projectOne h3,
+  .projectTwo h3,
+  .projectThree h3,
+  .projectFour h3,
+  .projectFive h3 {
     font-size: 16px;
   }
 
-  .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour,
+  .projectFive {
     margin-top: 20px;
   }
 
@@ -357,15 +402,21 @@ a {
     max-height: 45px;
   }
 
-  .projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
+  .projectOne p,
+  .projectTwo p,
+  .projectThree p,
+  .projectFour p,
+  .projectFive p {
     font-size: 13px;
   }
 }
 
 @media only screen and (max-width: 800px) {
-
-  .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour,
+  .projectFive {
     margin-top: 40px;
   }
-
 }

@@ -6,18 +6,20 @@ import "./small.css";
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        <div className="nav">
-          <h1>
-            <a href="#home">Aaron Whitehead</a>
-          </h1>
-          <div className="navItems">
-            <button>
-              <a href="#projects">Projects</a>
-            </button>
-            <button>
-              <a href="#contact">Contact</a>
-            </button>
+      <div className="main">
+        <div className="help">
+          <div className="nav">
+            <h1>
+              <a href="#home">Aaron Whitehead</a>
+            </h1>
+            <div className="navItems">
+              <button>
+                <a href="#projects">Projects</a>
+              </button>
+              <button>
+                <a href="#contact">Contact</a>
+              </button>
+            </div>
           </div>
         </div>
         <div className="firstGrid" id="home">
@@ -29,7 +31,8 @@ class App extends Component {
           <p className="headerFS">
             My name is Aaron, and I'm a full stack web developer. I'm based in
             Phoenix, Arizona. Below I have some projects that I've built along
-            my journey as a developer, as well as some more information about me!
+            my journey as a developer, as well as some more information about
+            me!
           </p>
           {/* <button className="projectsButton">Projects</button>
           <button className="aboutButton">About Me</button>
@@ -56,19 +59,19 @@ class App extends Component {
                 the hand starts.
               </p>
               <div className="headBox">
-              <a
+                <a
                   href="https://blackjack-app-client.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>Live Version</h3>
+                  <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/WhiteheadAaron/blackjack-client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>GitHub File</h3>
+                  <h3>GitHub File</h3>
                 </a>
               </div>
 
@@ -129,22 +132,22 @@ class App extends Component {
                 ReadMe!
               </p>
               <div className="headBox">
-              <a
+                <a
                   href="https://mountain-men-truckd.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>Live Version</h3>
+                  <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/thinkful-ei24/mountain-men-client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>GitHub File</h3>
+                  <h3>GitHub File</h3>
                 </a>
               </div>
-              
+
               <div className="headBox">
                 <h3>Tech Stacks</h3>
               </div>
@@ -200,22 +203,22 @@ class App extends Component {
                 Spanish. It was made in collaboration with developer Janet Leon.
               </p>
               <div className="headBox">
-              <a
+                <a
                   href="https://learn-spanish-app.herokuapp.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>Live Version</h3>
+                  <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/thinkful-ei24/aaron-janet-spaced-repetition-client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>GitHub File</h3>
+                  <h3>GitHub File</h3>
                 </a>
               </div>
-             
+
               <div className="headBox">
                 <h3>Tech Stacks</h3>
               </div>
@@ -272,22 +275,22 @@ class App extends Component {
                 track of long term stats for our league.
               </p>
               <div className="headBox">
-              <a
+                <a
                   href="https://dsm-dynasty.herokuapp.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>Live Version</h3>
+                  <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/WhiteheadAaron/DSM-Dynasty-Client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>GitHub File</h3>
+                  <h3>GitHub File</h3>
                 </a>
               </div>
-              
+
               <div className="headBox">
                 <h3>Tech Stacks</h3>
               </div>
@@ -344,22 +347,22 @@ class App extends Component {
                 the results page.
               </p>
               <div className="headBox">
-              <a
+                <a
                   href="https://whitehead-tax-service.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>Live Version</h3>
+                  <h3>Live Version</h3>
                 </a>
                 <a
                   href="https://github.com/WhiteheadAaron/whitehead-tax-service"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <h3>GitHub File</h3>
+                  <h3>GitHub File</h3>
                 </a>
               </div>
-             
+
               <div className="headBox">
                 <h3>Tech Stacks</h3>
               </div>
@@ -442,7 +445,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

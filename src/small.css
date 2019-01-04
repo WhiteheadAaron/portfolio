@@ -2,6 +2,7 @@
   .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
     grid-template-rows: repeat(10, 10%);
     margin-top: 0px;
+    grid-row: 2 / 10;
   }
 
   .projectOne h2, .projectTwo h2, .projectThree h2, .projectFour h2, .projectFive h2 {
