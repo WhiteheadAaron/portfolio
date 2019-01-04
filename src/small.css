@@ -35,9 +35,6 @@
     font-size: 15px;
   }
 
-  .projectOne p, .projectTwo p, .projectThree p, .projectFour p, .projectFive p {
-    font-size: 16px;
-  }
 
   .blackjackPic {
     max-width: 100%;
@@ -165,7 +162,7 @@
     grid-column: 3 / 9;
     grid-row: 2 / 6;
     margin-bottom: 15px;
-    margin-top: -25px;
+    margin-top: -30px;
   }
 
   .pBox {

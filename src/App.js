@@ -46,11 +46,13 @@ class App extends Component {
         <div className="secondGrid">
           <div className="projectOne">
             <h2>BlackJack</h2>
-            <img
-              src={require("./images/blackjack.jpg")}
-              alt="Screenshot of App"
-              className="blackjackPic"
-            />
+
+              <img
+                src={require("./images/blackjack.jpg")}
+                alt="Screenshot of App"
+                className="blackjackPic"
+              />
+         
             <div className="pBox">
               <p>
                 This application is just what it sounds like; a place to play
@@ -119,11 +121,13 @@ class App extends Component {
         <div className="thirdGrid">
           <div className="projectFive">
             <h2>Truck'd</h2>
-            <img
-              src={require("./images/truckd.png")}
-              alt="Screenshot of App"
-              className="blackjackPic truckPic"
-            />
+
+              <img
+                src={require("./images/truckd.png")}
+                alt="Screenshot of App"
+                className="blackjackPic truckPic"
+              />
+        
             <div className="pBox">
               <p>
                 This was a collaboration with 4 other developers. Truck'd is an
@@ -406,7 +410,8 @@ class App extends Component {
         </div>
         <div className="aboutSection">
           <p>
-            When I'm not writing code, I like to keep busy. These are just a few of my other interests.
+            When I'm not writing code, I like to keep busy. These are just a few
+            of my other interests.
           </p>
           <ul>
             <li>I love playing and watching sports, especially soccer</li>
@@ -437,7 +442,10 @@ class App extends Component {
           </ul>
         </div>
         <div className="hello" id="contact">
-          <p>Think I would be a good fit at your company? Contact me through any of the below methods.</p>
+          <p>
+            Think I would be a good fit at your company? Contact me through any
+            of the below methods.
+          </p>
         </div>
         <div className="contact">
           <h2>Contact Me</h2>

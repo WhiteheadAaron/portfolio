@@ -1,4 +1,9 @@
 @media only screen and (max-width: 800px) {
+
+  p {
+    font-size: 16px;
+  }
+
   button {
     font-size: 16px;
   }
@@ -33,6 +38,11 @@
     border-radius: 100%;
     width: 70%;
   }
+
+  .projectThree h2,
+  .projectFive h2 {
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -66,7 +76,6 @@
 }
 
 @media only screen and (max-width: 850px) {
-
   .aboutMeGrid {
     height: 80vh;
   }
@@ -78,17 +87,17 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .aboutMe {
     grid-column: 2 / 10;
     grid-row: 4 / 6;
     font-size: 20px;
   }
-  
+
   .projectOne h3,
   .projectTwo h3,
   .projectThree h3,
-  .projectFour h3, 
+  .projectFour h3,
   .projectFive h3 {
     font-size: 17px;
   }
@@ -132,7 +141,7 @@
   .projectOne,
   .projectTwo,
   .projectThree,
-  .projectFour, 
+  .projectFour,
   .projectFive {
     grid-row: 1 / 10;
     grid-column: 1 / 11;
@@ -141,14 +150,18 @@
     grid-template-rows: repeat(10, 10vh);
   }
 
-  .secondGrid, .thirdGrid, .fourthGrid, .fifthGrid, .sixthGrid {
+  .secondGrid,
+  .thirdGrid,
+  .fourthGrid,
+  .fifthGrid,
+  .sixthGrid {
     height: 70vh;
   }
 
   .projectOne h2,
   .projectTwo h2,
   .projectThree h2,
-  .projectFour h2, 
+  .projectFour h2,
   .projectFive h2 {
     text-align: center;
     grid-row: 1 / 2;
@@ -176,17 +189,9 @@
   .projectOne h3,
   .projectTwo h3,
   .projectThree h3,
-  .projectFour h3, 
+  .projectFour h3,
   .projectFive h3 {
     font-size: 15px;
-  }
-
-  .projectOne p,
-  .projectTwo p,
-  .projectThree p,
-  .projectFour p, 
-  .projectFive p {
-    font-size: 13px;
   }
 
   .blackjackPic,
@@ -218,5 +223,4 @@
     max-width: 45px;
     max-height: 45px;
   }
-
 }
