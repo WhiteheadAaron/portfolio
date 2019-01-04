@@ -232,6 +232,10 @@ a {
   margin-left: 20px;
 }
 
+.mongo {
+  margin-top: 7px;
+}
+
 .headBox {
   display: flex;
   justify-content: space-evenly;

@@ -109,7 +109,7 @@ class App extends Component {
                   <img
                     src={require("./images/mongo.png")}
                     alt="MongoDB logo"
-                    className="techPic"
+                    className="techPic mongo"
                   />
                 </a>
               </div>
@@ -182,7 +182,7 @@ class App extends Component {
                   <img
                     src={require("./images/mongo.png")}
                     alt="MongoDB logo"
-                    className="techPic"
+                    className="techPic mongo"
                   />
                 </a>
               </div>
@@ -253,7 +253,7 @@ class App extends Component {
                   <img
                     src={require("./images/mongo.png")}
                     alt="MongoDB logo"
-                    className="techPic"
+                    className="techPic mongo"
                   />
                 </a>
               </div>
@@ -325,7 +325,7 @@ class App extends Component {
                   <img
                     src={require("./images/mongo.png")}
                     alt="MongoDB logo"
-                    className="techPic"
+                    className="techPic mongo"
                   />
                 </a>
               </div>
@@ -398,7 +398,7 @@ class App extends Component {
                     id="contact"
                     src={require("./images/mongo.png")}
                     alt="MongoDB logo"
-                    className="techPic"
+                    className="techPic mongo"
                   />
                 </a>
               </div>
