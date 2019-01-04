@@ -27,7 +27,6 @@
   }
 
   .projectOne h3, .projectTwo h3, .projectThree h3, .projectFour h3, .projectFive h3 {
-    color: white;
     font-size: 15px;
   }
 
@@ -66,6 +65,18 @@
     margin-top: 40px;
   }
 
+  .linkedIn {
+    height: 6vh;
+    margin-left: 10px;
+  }
+  
+  .emailPic, .gitHubPic {
+    height: 7vh;
+  }
+
+  .contactPics {
+    width: 80%;
+  }
 
 }
 

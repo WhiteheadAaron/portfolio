@@ -54,7 +54,6 @@
   .projectThree h3,
   .projectFour h3,
   .projectFive h3 {
-    color: white;
     font-size: 18px;
   }
 
@@ -66,17 +65,22 @@
 
 @media only screen and (max-width: 850px) {
 
+  .aboutMeGrid {
+    height: 80vh;
+  }
+
   .picBox {
     grid-column: 4 / 8;
     grid-row: 1 / 4;
-    margin-top: 10px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .aboutMe {
     grid-column: 2 / 10;
     grid-row: 4 / 6;
     font-size: 20px;
-    margin-top: 40px;
   }
   
   .projectOne h3,
@@ -84,7 +88,6 @@
   .projectThree h3,
   .projectFour h3, 
   .projectFive h3 {
-    color: white;
     font-size: 17px;
   }
 
@@ -142,7 +145,6 @@
   .projectFour h2, 
   .projectFive h2 {
     text-align: center;
-    color: white;
     grid-row: 1 / 2;
     grid-column: 1 / 7;
     font-size: 30px;
@@ -170,7 +172,6 @@
   .projectThree h3,
   .projectFour h3, 
   .projectFive h3 {
-    color: white;
     font-size: 15px;
   }
 
