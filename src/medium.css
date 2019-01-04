@@ -47,6 +47,8 @@
 
   .pBox {
     margin-left: 20px;
+    margin-top: 40px;
+    grid-row: 2 / 8;
   }
 
   .projectOne h3,

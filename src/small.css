@@ -20,7 +20,7 @@
 
   .pBox {
     grid-column: 2 / 10;
-    grid-row: 5 / 10;
+    grid-row: 6 / 11;
   }
 
   .h3Box {
@@ -165,12 +165,12 @@
     grid-column: 3 / 9;
     grid-row: 2 / 6;
     margin-bottom: 15px;
-    margin-top: -35px;
+    margin-top: -25px;
   }
 
   .pBox {
     grid-column: 2 / 10;
-    grid-row: 5 / 10;
+    grid-row: 6 / 11;
   }
 
   .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {

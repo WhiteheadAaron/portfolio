@@ -229,7 +229,7 @@ a {
   grid-column: 7 / 11;
   grid-row: 1 / 5;
   margin-top: 60px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .mongo {
@@ -345,7 +345,66 @@ a {
   margin-top: 70px;
 }
 
+.aboutSection {
+  margin-top: 70px;
+  height: 25vh;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 150px;
+  border-bottom: solid 1px black;
+}
+
+.company {
+  height: 25vh;
+  max-width: 1170px;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 150px;
+  border-bottom: solid 1px black;
+}
+
+.hello {
+  height: 10vh;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.aboutSection p, .company p, .hello p {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+
+
 @media only screen and (max-width: 1300px) {
+
+  .aboutSection {
+    padding-left: 50px;
+  }
+  
+  .company {
+    padding-left: 50px;
+  }
+  
+  .hello {
+    height: 10vh;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10vh;
+  }
+  
+  .aboutSection p, .company p, .hello p {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
   .projectOne h3,
   .projectTwo h3,
   .projectThree h3,
@@ -380,7 +439,34 @@ a {
   }
 }
 
+@media only screen and (max-width: 1150px) {
+  
+  .aboutSection, .company, .hello {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .aboutSection li, .company li {
+    font-size: 18px;
+  }
+  
+  .aboutSection p, .company p, .hello p {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+}
+
 @media only screen and (max-width: 1100px) {
+
+  .aboutSection li, .company li {
+    font-size: 16px;
+  }
+  
+  .aboutSection p, .company p, .hello p {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
   .projectOne h3,
   .projectTwo h3,
   .projectThree h3,
@@ -413,6 +499,10 @@ a {
   .projectFive p {
     font-size: 13px;
   }
+  .pBox {
+    margin-top: 70px;
+  }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -423,4 +513,73 @@ a {
   .projectFive {
     margin-top: 40px;
   }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .aboutSection {
+    margin-top: 70px;
+    height: 35vh;
+    max-width: 1170px;
+    padding-left: 0px;
+  }
+
+  .company {
+    height: 35vh;
+    max-width: 1170px;
+    margin-top: 10vh;
+    padding-left: 0;
+  }
+  
+  .hello {
+    height: 20vh;
+    max-width: 1170px;
+    text-align: center;
+    margin-top: 10vh;
+  }
+  
+  .aboutSection p, .company p, .hello p {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+
+  .aboutSection {
+    height: 40vh;
+  }
+
+  .company {
+    height: 35vh;
+  }
+  
+  
+  .aboutSection p, .company p, .hello p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .aboutSection {
+    height: 48vh;
+  }
+
+  .company {
+    height: 40vh;
+  }
+ 
+}
+
+@media only screen and (max-width: 350px) {
+
+  .aboutSection {
+    height: 58vh;
+  }
+
+  .company {
+    height: 50vh;
+  }
+ 
 }

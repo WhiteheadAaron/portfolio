@@ -395,7 +395,6 @@ class App extends Component {
                   rel="noopener noreferrer"
                 >
                   <img
-                    id="contact"
                     src={require("./images/mongo.png")}
                     alt="MongoDB logo"
                     className="techPic mongo"
@@ -404,6 +403,41 @@ class App extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="aboutSection">
+          <p>
+            When I'm not writing code, I like to keep busy. These are just a few of my other interests.
+          </p>
+          <ul>
+            <li>I love playing and watching sports, especially soccer</li>
+            <li>
+              Being outdoors is a passion of mine, I take a trip to a National
+              Park yearly
+            </li>
+            <li>
+              I play a lot of video games when time permits. My current game of
+              choice is Rocket League. Play on Steam? Let's game!
+            </li>
+          </ul>
+        </div>
+        <div className="company">
+          <p>
+            I am currently available for employment. My ideal employer would
+            look something like this:
+          </p>
+          <ul>
+            <li>
+              Fast paced team environment with room to grow as a developer and a
+              person
+            </li>
+            <li>
+              Somewhere with strong team communication. I'm at my best when I
+              have clear goals to work towards
+            </li>
+          </ul>
+        </div>
+        <div className="hello" id="contact">
+          <p>Think I would be a good fit at your company? Contact me through any of the below methods.</p>
         </div>
         <div className="contact">
           <h2>Contact Me</h2>
