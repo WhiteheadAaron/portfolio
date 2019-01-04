@@ -13,6 +13,8 @@ body {
   background-color: white;
 }
 
+
+
 .help {
   width: 100%;
   display: flex;
@@ -251,6 +253,7 @@ a {
 .projectTwo p,
 .projectFour p {
   color: white;
+  font-size: 20px;
 }
 
 .projectThree p,
@@ -350,6 +353,7 @@ a {
   margin-top: 70px;
   height: 25vh;
   max-width: 1170px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 150px;
@@ -359,6 +363,7 @@ a {
 .company {
   height: 25vh;
   max-width: 1170px;
+  width: 1000px;
   margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
@@ -382,6 +387,12 @@ a {
 .aboutSection p, .company p, .hello p {
   font-size: 22px;
   font-weight: bolder;
+}
+
+
+
+.pBox p, .firstGrid p, .aboutSection li, .company li {
+  font-size: 16px;
 }
 
 
@@ -447,6 +458,10 @@ a {
 
 
 @media only screen and (max-width: 1150px) {
+
+  .aboutSection, .company {
+    width: auto;
+  }
   
   .aboutSection, .company, .hello {
     margin-left: 20px;
