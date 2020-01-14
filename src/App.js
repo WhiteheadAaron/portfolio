@@ -32,7 +32,7 @@ class App extends Component {
             My name is Aaron, and I'm a full stack web developer. I'm based in
             Phoenix, Arizona. Below I have some projects that I've built along
             my journey as a developer, as well as some more information about
-            me!
+            me! Please note that the live version of these sites are deployed using free dynos, so they may require a minute to fire up.
           </p>
           {/* <button className="projectsButton">Projects</button>
           <button className="aboutButton">About Me</button>
