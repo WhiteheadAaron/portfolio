@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Navbar from "./components/navbar/Navbar";
 import GlobalStyle from './styles/Global';
 import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
+import Projects from "./components/projects/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 // import "./index.css";

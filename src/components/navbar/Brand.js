@@ -5,8 +5,9 @@ import logo from "../../assets/logo-min.jpg";
 const Brand = props => {
 
   const style = () => {
-    if (props.activePage === 'about') return { cursor: 'default' };
-    return {};
+    const styleObj = { borderRadius: '20%' }
+    if (props.activePage === 'about') styleObj.cursor = 'default';
+    return styleObj;
   };
 
   return (
@@ -14,7 +15,9 @@ const Brand = props => {
       alt="Picture of Aaron" 
       onClick={() => {
         props.setNewPage('about');
-        if (props.navbarOpen === true) props.handleNavbar();
+        if (props.navbarOpen === true && props.activePage !== 'about') {
+          props.handleNavbar();
+        }
       }} 
       src={logo}
       style={style()}
