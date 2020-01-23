@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+window.MountedList = {
+  home: false,
+  projects: false,
+  contact: false,
+  'Learning Spanish': false,
+  Truckd: false,
+  Blackjack: false
+};
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
