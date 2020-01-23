@@ -9,7 +9,7 @@ class Resume extends Component {
         <img 
           alt="Aaron's resume"
           src={require('../assets/resume-1.jpg')}
-          style={{ width: '95%', height: 'auto' }}
+          style={{ width: '100%', height: '100%' }}
         />
       </div>
     );
