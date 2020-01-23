@@ -7,7 +7,10 @@ import * as serviceWorker from './serviceWorker';
 window.MountedList = {
   home: false,
   projects: false,
-  contact: false
+  contact: false,
+  'Learning Spanish': false,
+  Truckd: false,
+  Blackjack: false
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
